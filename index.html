@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog de Tecnología</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+            color: #f2f2f2;
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.7;
+        }
+
+        header {
+            background: linear-gradient(135deg, #f30071, #7a00f5);
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+        }
+
+        header h1 {
+            font-size: 2.8em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 6px rgba(0,0,0,0.3);
+        }
+
+        header p {
+            font-size: 1.2em;
+        }
+
+        article {
+            background-color: rgba(255, 255, 255, 0.1);
+            margin: 30px auto;
+            padding: 30px;
+            max-width: 900px;
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(255,255,255,0.1);
+            transition: transform 0.3s ease;
+        }
+
+        article:hover {
+            transform: scale(1.02);
+        }
+
+        h2, h3 {
+            color: #ff00b3;
+            text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
+        }
+
+        p, li {
+            color: #e6e6e6;
+        }
+
+        ul {
+            margin-left: 20px;
+        }
+
+        img {
+            width: 100%;
+            max-width: 600px;
+            border-radius: 15px;
+            display: block;
+            margin: 20px auto;
+            box-shadow: 0 0 15px rgba(0,0,0,0.4);
+            transition: transform 0.4s ease;
+        }
+
+        img:hover {
+            transform: scale(1.05);
+        }
+
+        iframe, video {
+            display: block;
+            margin: 30px auto;
+            border-radius: 15px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.5);
+        }
+
+        .etiquetas {
+            margin-top: 20px;
+            font-style: italic;
+            text-align: center;
+        }
+
+        .etiquetas strong {
+            background-color: #7a00f5;
+            padding: 5px 10px;
+            border-radius: 20px;
+            margin-right: 5px;
+            color: #fff;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #ccc;
+            font-size: 0.9em;
+            background-color: rgba(0,0,0,0.4);
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1><i class="fa-solid fa-robot"></i> Blog de Tecnología</h1>
+        <p>Explorando el futuro digital con innovación y conocimiento</p>
+    </header>
+
+    <article>
+        <h2><i class="fa-solid fa-brain"></i> La inteligencia artificial en nuestra vida diaria</h2>
+
+        <!-- Imagen local alojada en GitHub -->
+        <img src="https://rickrcnf19.github.io/blog-sobre-la-IA/imagenes/ia1.jpg" alt="Inteligencia Artificial">
+
+        <p>
+            La inteligencia artificial (IA) se ha convertido en una de las fuerzas más transformadoras del siglo XXI. 
+            No solo ha revolucionado la industria tecnológica, sino también la forma en que trabajamos, aprendemos, 
+            nos comunicamos y vivimos. La IA está presente en asistentes virtuales, plataformas de entretenimiento, 
+            sistemas bancarios, vehículos autónomos, diagnósticos médicos y mucho más.
+        </p>
+
+        <!-- Video de YouTube -->
+        <iframe width="560" height="315" 
+            src="https://www.youtube.com/embed/2ePf9rue1Ao" 
+            title="Introducción a la Inteligencia Artificial" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+        </iframe>
+
+        <h3>Historia y evolución</h3>
+        <img src="https://rickrcnf19.github.io/blog-sobre-la-IA/imagenes/ia2.jpg" alt="Historia de la IA">
+        <p>
+            El concepto de inteligencia artificial comenzó en la década de 1950, cuando el matemático británico 
+            Alan Turing planteó la pregunta: “¿Pueden pensar las máquinas?”. Poco después, John McCarthy acuñó el 
+            término “inteligencia artificial” y organizó la primera conferencia sobre el tema en 1956 en Dartmouth College.
+        </p>
+
+        <h3>Tipos de inteligencia artificial</h3>
+        <ul>
+            <li><strong>IA débil:</strong> Diseñada para realizar tareas específicas como reconocer rostros o responder preguntas.</li>
+            <li><strong>IA general:</strong> Sería capaz de pensar, razonar y aprender como un ser humano (aún no existe).</li>
+            <li><strong>IA superinteligente:</strong> Representa una inteligencia superior a la humana en todos los aspectos.</li>
+        </ul>
+
+        <h3>Aplicaciones cotidianas</h3>
+        <img src="https://rickrcnf19.github.io/blog-sobre-la-IA/imagenes/ia3.jpg" alt="Aplicaciones de la IA">
+        <ul>
+            <li><strong>Salud:</strong> Diagnóstico temprano y desarrollo de tratamientos personalizados.</li>
+            <li><strong>Educación:</strong> Plataformas que se adaptan al ritmo de cada estudiante.</li>
+            <li><strong>Transporte:</strong> Vehículos autónomos y rutas inteligentes.</li>
+            <li><strong>Entretenimiento:</strong> Recomendaciones en Netflix o Spotify.</li>
+            <li><strong>Finanzas:</strong> Análisis de riesgos y detección de fraudes.</li>
+        </ul>
+
+        <h3>El futuro de la IA</h3>
+        <p>
+            En los próximos años, la IA se combinará con la robótica, la biotecnología y la computación cuántica. 
+            Si se utiliza con responsabilidad, podría resolver problemas globales como el cambio climático o 
+            enfermedades incurables. El futuro depende de cómo los humanos decidan usarla.
+        </p>
+
+        <div class="etiquetas">
+            Etiquetas: 
+            <strong>#tecnología</strong> 
+            <strong>#IA</strong> 
+            <strong>#innovación</strong> 
+            <strong>#futuro</strong>
+        </div>
+    </article>
+
+    <footer>
+        © 2025 Blog de Tecnología — Creado con 💻 y pasión por la innovación.
+    </footer>
+
+</body>
+</html>
